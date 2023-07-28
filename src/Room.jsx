@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/ROOM.glb");
+  const { nodes, materials } = useGLTF("/PortfolioV3/ROOM.glb");
   return (
     <group {...props} dispose={null} position={[0,15,0]} castShadow={true}  >
       <mesh
